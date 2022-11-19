@@ -1,0 +1,28 @@
+#homevideo {
+  position: absolute;
+  top: -190px;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+h1{
+    position: relative;
+    top: 200px;
+    text-align: center;
+    color: black;
+    text-shadow: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    position: relative;
+    top: 200px;
+    text-align: center;
+    color: wheat;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+
+

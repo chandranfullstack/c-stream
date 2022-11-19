@@ -1,0 +1,32 @@
+#main{
+    margin-top: 46px;
+    display: grid;
+    grid-template-columns: 200px auto;
+    
+}
+#sidebar{
+    display: grid;
+    padding: 0px;
+    
+}
+#maincontent{
+    display: grid;
+    background-color: rgb(202, 82, 82);
+    margin-top: 0;
+}
+#sidebar ol li{
+    list-style-type: none;
+    font-size: 20px;
+    color:wheat;
+    padding-top: 20px;
+    text-align: center;
+}
+table tr td{
+    border: 0px solid black;
+}
+#sidebar ol{
+    padding: 0px;
+}
+#sidebar ol li:hover{
+    background-color: red;
+}
