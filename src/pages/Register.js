@@ -17,11 +17,10 @@ class signin extends React.Component{
     render(){
         return(
             <>
-            <div>
-              {this.state.isRegister ?<Emptyplayer/>:<Adminplayer/>
-              
-            }
-              
+            <div style={{marginTop:"200px" ,textAlign:"center",fontSize:"20px"}}>
+               <p>
+                 register as<a href="http://localhost:3000/admin">ADMIN</a> or <a href="http://localhost:3000/user">USER</a>
+                </p>
             </div>
             </>
         )

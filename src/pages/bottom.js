@@ -1,4 +1,5 @@
 import React from 'react';
+import './style/bottom.css';
 
 
 class Bottom extends React.Component{
@@ -9,6 +10,7 @@ class Bottom extends React.Component{
     render(){
         return(
         <>
+        <div id='bottompage'>
             <ul>
               <h4>Contact Us</h4>
               <li><a href="mailto:ravichan997@gmail.com">send mail</a></li>
@@ -33,6 +35,7 @@ class Bottom extends React.Component{
           <li><a href='#'>Subcription</a></li>
           <li><a href='#'>Developer content</a></li>
         </ul>
+        </div>
         </>
         )
     }

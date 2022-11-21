@@ -1,6 +1,8 @@
 import React from 'react';
 import video from './video.mp4';
 import './style/Home.css';
+import Adpage from './Ad';
+import Bottom from './bottom';
 
 class Home extends React.Component{
     constructor(){
@@ -21,7 +23,10 @@ class Home extends React.Component{
             <p>We make it easy to livestream engaging virtual events, reach your remote workforce, and launch a subscription channel.
            </p>
            </span>
+           <Adpage/>
+           <Bottom/>
          </div>
+         
        </>  
             
         )

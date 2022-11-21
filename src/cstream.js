@@ -9,6 +9,7 @@ import Admin from './pages/admin/Admin';
 import User from './pages/user/User';
 import Uploadvideo from './pages/admin/uploadvideo';
 import Adminplayer from './pages/admin/adminplayer';
+import Userplayer from "./pages/user/userplayer";
 
 
 class Cstream extends React.Component{
@@ -22,7 +23,8 @@ class Cstream extends React.Component{
         return(
             <>
               <div>
-                <Router>
+                <Router >
+                <div id='routing' >
                 <ul className='navbar navbar-expand-lg navbar-light fixed-top' id="mainlist">
                     
                     <li className='list' >
@@ -42,6 +44,7 @@ class Cstream extends React.Component{
                         <Link className='link' style={{textDecoration:"none", color:"white",padding:"50px"}} to="/service">SERVICES</Link>
                     </li>
                 </ul>
+                </div>
                 <Routes>
                     <Route path='/' element={<Home/>}></Route>
                     <Route path='/login' element={<Login/>}></Route>
@@ -50,7 +53,8 @@ class Cstream extends React.Component{
                     <Route path='/admin' element={<Admin/>}></Route>
                     <Route path='/service' element={<Services/>}></Route>
                     <Route path='/uploadvideo' element={<Uploadvideo/>}></Route>
-                    <Route path='/adminplayer' element={<Adminplayer/>}></Route>
+                    <Route path='/Adminplayer' element={<Adminplayer/>}></Route>
+                    <Route path='/Userplayer' element={<Userplayer/>}></Route>
                 </Routes>
                   <Outlet/>
                 </Router>

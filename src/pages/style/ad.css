@@ -1,0 +1,38 @@
+#adpage {
+    margin-top: 450px;
+    background-color: rgb(218, 198, 172);
+}
+#ad1{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-columns: 50% 50%;
+    margin: 50px;
+    background-color: rgb(212, 208, 203);
+}
+#ad2{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(212, 208, 203);
+}
+#image1{
+    margin-left: 13%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#image2{
+    margin-left: 13%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#text1{
+    margin-top: 120px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#text2{
+    margin-top: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.para{
+    font-size: 25px;
+}
