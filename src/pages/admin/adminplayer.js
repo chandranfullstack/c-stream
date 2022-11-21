@@ -15,7 +15,7 @@ class Adminplayer extends React.Component{
           <Form onSubmit="/video">
              <Form.Group>
                <Form.Label>UPLOAD YOUR VIDEOS</Form.Label>
-               <Form.Control type="file" placeholder="Enter email"  name="femail"  />
+               <Form.Control type="file"  name="video"  />
              </Form.Group>
              <br/>
              <Button variant="primary" type="submit">
