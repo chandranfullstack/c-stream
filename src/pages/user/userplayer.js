@@ -19,15 +19,13 @@ class Userplayer extends React.Component{
                   <div id='sidebar'>
                    <ol>
                      <li>playlist</li>
-                     <p id='demo'></p>
-                     <li></li>
                     </ol>
                   </div>
                   <div id='maincontent'>
                     <table>
                         <thead>
                             <tr id="first-row">
-                                <td width="350px" height="200px"><video height="200px" width="350px" autoPlay muted><source src={video} /></video></td>
+                                <td><video width="330px" height="200px" controls><source src={video} /></video></td>
                                 <td><video height="200px" width="330px" controls><source src/></video></td>
                                 <td><video height="200px" width="330px" controls><source src /></video></td>
                                 

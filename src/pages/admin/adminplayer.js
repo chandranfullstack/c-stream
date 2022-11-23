@@ -12,10 +12,10 @@ class Adminplayer extends React.Component{
     render(){
         return(
             <div style={{marginTop:"200px",width:"500px",marginLeft:"500px"}}>
-          <Form onSubmit="/video">
-             <Form.Group>
+          <Form action="/video" method="post">
+             <Form.Group >
                <Form.Label>UPLOAD YOUR VIDEOS</Form.Label>
-               <Form.Control type="file"  name="video"  />
+               <Form.Control type="file"  name="video" accept="video/*" className="class-control-file"/>
              </Form.Group>
              <br/>
              <Button variant="primary" type="submit">
