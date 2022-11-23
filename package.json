@@ -1,50 +1,81 @@
 {
-  "homepage": "https://637a2df488b191245b41ca51--c-stream.netlify.app/",
-  "name": "c-stream",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "bootstrap": "^5.1.3",
-    "gitignore": "^0.7.0",
-    "npm-git-install": "^0.3.0",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.6.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.3",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
-  "proxy": "http://localhost:3001",
+  
+  "name": "server",
+  
+  "version": "1.0.0",
+  
+  "description": "",
+  
+  "main": "index.js",
+  
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+  
+    
+  "test": "echo \"Error: no test specified\" && exit 1",
+  
+    
+  "start": "node index.js",
+  
+  "heroku-postbuild": "cd client && npm install && npm run build",
+    
+  "dev": "nodemon index.js"
+  
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  
+  "author": "",
+  
+  "license": "ISC",
+  
+  "dependencies": {
+  
+    
+  "bcrypt": "^5.1.0",
+  
+    
+  "body-parser": "^1.20.1",
+  
+    
+  "cookie-parser": "^1.4.6",
+  
+    
+  "cors": "^2.8.5",
+  
+    
+  "dotenv": "^16.0.3",
+  
+    
+  "express": "^4.18.2",
+  
+    
+  "express-session": "^1.17.3",
+  
+    
+  "jsonwebtoken": "^8.5.1",
+  
+    
+  "mongoose": "^6.7.2",
+  
+    
+  "passport": "^0.6.0",
+  
+    
+  "passport-local": "^1.0.0",
+  
+    
+  "passport-local-mongoose": "^7.1.2",
+  
+    
+  "validator": "^13.7.0"
+  
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
+  
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+  
+    
+  "gh-pages": "^4.0.0",
+  
+    
+  "nodemon": "^2.0.20"
+  
   }
 }
